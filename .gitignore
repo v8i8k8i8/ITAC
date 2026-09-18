@@ -1,0 +1,10 @@
+
+# environment:
+venv/
+.venv/
+
+# credencials and secrets: I dont put the qa.yml here so you can be able to test the project as is.....
+configs/env/prod.yml
+
+.pytest_cache
+
