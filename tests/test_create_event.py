@@ -22,10 +22,12 @@ def test_create_event(page):
     
         #locators
     admin = page.get_by_test_id("nav-admin") 
-    event_name = "new event 22222222"
-    lineup = "lineup 22222222222"
+    
+    
+    event_name = "new event 6666aaaa"
+    lineup = "lineup 13aaa"
     category = "Comedy"
-    start_date = "2026-09-28T20:25"
+    start_date = "2026-09-28T20:16"
     venue = "9b3e9fef-2d2c-4a68-86bd-0da1eca58bb0"  # Tel Aviv
     
     events_page = EventsPage(page)
